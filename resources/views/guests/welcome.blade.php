@@ -6,7 +6,7 @@
    
     @forelse ($movies as $movie )
         <h2>
-            {{$movie['title']}}
+            {{$movie->title}}
         </h2>
     @empty
         <p>sorry,movie not found!</p>
